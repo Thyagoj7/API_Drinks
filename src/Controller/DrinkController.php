@@ -23,6 +23,7 @@ class DrinkController
     public function __construct(DrinkService $drinkService)
     {
         $this->drinkService = $drinkService;
+        echo "Api funcionando";
     }
 
     //Define um método público chamado que usa dois argumentos: um objeto e um objeto. Ele também declara um tipo de retorno de
